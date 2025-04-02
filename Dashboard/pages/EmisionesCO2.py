@@ -27,8 +27,8 @@ def load_excel_data(filepath):
 
 # --- CARGA Y PREPROCESAMIENTO INICIAL ---
 # Ajusta las rutas si tus archivos no están en 'Dashboard/' relativo al script principal
-FILE_CO2 = 'Dashboard\EmsionesCo2.xlsx'
-FILE_GEI_TOTAL = 'Dashboard\GasesEfectoInvernadero.xlsx'
+FILE_CO2 = 'Dashboard/EmsionesCo2.xlsx'
+FILE_GEI_TOTAL = 'Dashboard/GasesEfectoInvernadero.xlsx'
 
 df_co2_orig = load_excel_data(FILE_CO2)
 df_gei_total_orig = load_excel_data(FILE_GEI_TOTAL)
