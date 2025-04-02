@@ -27,7 +27,7 @@ def load_data(filepath):
         return None
 
 # Cargar los datos
-df_original = load_data('Dashboard\VehiculosElectricos.csv')
+df_original = load_data('Dashboard/VehiculosElectricos.csv')
 
 # Si la carga falló, detener la ejecución del script
 if df_original is None:
