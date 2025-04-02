@@ -26,7 +26,7 @@ def load_final_data(filepath):
         return None
 
 # --- CARGA Y PREPROCESAMIENTO ---
-FILE_FINAL = 'Dashboard\df_final.csv' # Asegúrate que este es el nombre correcto
+FILE_FINAL = 'Dashboard/df_final.csv' # Asegúrate que este es el nombre correcto
 df_orig_final = load_final_data(FILE_FINAL)
 
 if df_orig_final is None:
